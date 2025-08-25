@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summary of Misleading Clauses</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #007BFF, #00C6FF);
+      margin: 0; padding: 40px;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      max-width: 700px;
+      margin: auto;
+      animation: fadeIn 1s ease-in-out;
+    }
+    h2 { color: #007BFF; margin-bottom: 20px; text-align: center; }
+    ul { margin-top: 15px; list-style: "✔ "; padding-left: 20px; }
+    li { margin-bottom: 12px; font-size: 17px; color: #333; }
+    .btn {
+      display: block;
+      margin: 30px auto 0 auto;
+      padding: 12px 25px;
+      background: #007BFF;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      width: fit-content;
+    }
+    .btn:hover { background: #0056b3; }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>📌 Summary of Detected Misleading Clauses</h2>
+
+    <ul>
+      {% for s in matched %}
+        <li>{{ s }}</li>
+      {% endfor %}
+   </ul>
+
+
+    <a href="/" class="btn">⬅️ Back to Upload</a>
+  </div>
+</body>
+</html>
