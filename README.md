@@ -81,7 +81,7 @@ http://127.0.0.1:5000/
 
 ![Project demo1](https://github.com/user-attachments/assets/cfed380c-5567-43f3-b470-cbbff6ad0cc2)
 
-
+---
   
 ## 🔮 Future Improvements
 
@@ -94,3 +94,8 @@ http://127.0.0.1:5000/
 ✅ Enterprise integration.
 
 ✅ Clause recommentation engine
+
+---
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues, fork the repo and send pull requests.
