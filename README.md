@@ -77,7 +77,7 @@ http://127.0.0.1:5000/
    - 📌 Summary list of all detected clauses.
 
 
-## Demo
+## 🎬 Demo
 
 ![Project demo1](https://github.com/user-attachments/assets/cfed380c-5567-43f3-b470-cbbff6ad0cc2)
 
